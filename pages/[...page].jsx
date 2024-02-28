@@ -5,7 +5,7 @@ import DefaultErrorPage from "next/error";
 import Head from "next/head";
 import "../builder-registry";
 
-builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY);
+builder.init("0a00c8af036c46499968fc1e6c9c5d38");
 
 // Define a function that fetches the Builder
 // content for a given page
